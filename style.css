@@ -1,0 +1,124 @@
+body{
+    overflow-x: hidden;
+}
+.container-fluid {
+    padding: 0%;
+}
+#navbar{
+    width: 100%;
+}
+#logo {
+    width: 50px;
+    height: 50px;
+}
+.logo-text{
+    font-size: small;
+}
+.nav-item:hover{
+ border-top: 1px solid black;
+ border-bottom: 1px solid black;
+ border-radius: 15%;
+}
+.employment:hover{
+ background-color: black;
+ border-top: 1px solid black;
+ border-bottom: 1px solid black;
+ border-radius: 50%;
+ text-decoration: dashed;
+}
+
+.brainster {
+    font-size: 5em;
+    font-weight: bold;
+    font-family:Andale;
+    text-shadow: 10px 10px 5px rgb(218, 180, 58);   
+    letter-spacing: 10px; 
+    border-left: rgb(236, 184, 39) solid 10px;
+    padding-left: 10px;
+    border-bottom: rgb(236, 184, 39) solid 5px;
+    border-radius: 15%;   
+}
+.filters{
+    width: 100vw;
+    margin: 0%;
+    padding:0%;
+}
+#filter-coding, #filter-marketing, #filter-design {
+    width: 33vw;
+    height: 100%;  
+    padding-top: 4%;    
+}
+.f-hover:hover{
+    background-color: red;
+}
+
+.baner {
+    background-image: url('assets/pro.jpg');
+    width: 100vw;  
+    height: 100vh;
+    background-size: cover;
+    display: block;
+    background-position: center; 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  
+}
+.projects{
+    width: 100vw;
+    height: 15vh;
+    font-size: 5%;
+    margin: 0%;
+    padding:0%;
+}
+
+.card{
+    width: 25%;
+    margin: 2%;
+    transition:0.8s;
+}
+.card:hover{
+    transform:scale(1.2);          
+  }
+.checked {
+    background-color: red;
+}
+.youchoose img {
+    width: 20vw;
+    height: 13vw;
+  }
+.youchoose {
+    color: white;
+    background-color: black;
+
+}
+#employment{
+    font-size: 3em;
+}
+
+@media (max-width: 991.98px)  {
+    .nav-shown {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 9;
+        align-items: flex-start;
+        align-content: flex-start;
+    }
+    .filters{
+        display: flex;
+        flex-direction: column;
+    }
+    #filter-coding, #filter-marketing, #filter-design {
+        width: 100%;
+    }
+    .card{
+        width: 45%;
+    }
+}
+@media (max-width: 767.98px) {
+    .card {
+        width:95%;
+    }
+ }

@@ -1,0 +1,43 @@
+#logo {
+    width: 20%;
+    height: 65%;
+}
+.fsize {
+    font-size: small;
+}
+.mr-2em{
+    margin-right: 2em;
+}
+.nav-btn {
+    width: 5em;
+    height: 5em;
+}
+a {
+    text-decoration: none;
+}
+.projects {
+    font-size: xx-large;
+    letter-spacing: 3px;
+}
+.box {
+    transition: 0.7s;
+}
+.box:hover{
+    transform:scale(1.2);  
+}
+.image-bg {
+    background-image: url('assets/img1.jpg');
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+}
+.lab {
+    font-size: 5em;
+    font-weight: bold;
+    font-family:Andale Mono, cursive;
+    text-shadow: 5px 5px 5px rgb(43, 42, 40);   
+    letter-spacing: 10px;
+}
+.work {
+    font-size: 5em;
+}
