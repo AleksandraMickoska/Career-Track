@@ -1,0 +1,45 @@
+#logo {
+    width:18%;
+    height:18%;
+}
+#firstPart{   
+    height: 30vw;
+    opacity: 0.7;
+}
+#firstPart {
+    background-image: url(./assets/world\ map.jpg);  
+    background-size: cover;   
+}
+.navbar-brand{
+    margin-right: 60%;
+}
+@media (max-width:768px) { 
+    h1, h2{
+        background-color: rgb(36, 80, 116);        
+    }
+    h2 {
+        font-size: medium;
+    }
+    #firstPart{
+        background-image: none;
+        background-image: linear-gradient(rgb(130, 248, 189), rgb(36, 80, 116)); 
+    }
+    body {
+        background-image: linear-gradient(white, rgb(223, 255, 164)); 
+    }
+    table {
+        background-color: white;
+    }
+    #home, #sync {
+        width: 10%;
+        height: 10%;
+        margin-top: 1%;
+    }
+    .nav-link {
+        font-size: small;
+        text-align: center;    
+       
+    }
+ }
+
+
